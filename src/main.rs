@@ -56,6 +56,10 @@ impl FileChangeEvent {
         match ext {
             "rs" => Some("rust"),
             "json" => Some("json"),
+            "js" => Some("javascript"),
+            "ts" => Some("typescript"),
+            "py" => Some("python"),
+            "lua" => Some("lua"),
             _ => None,
         }
     }
